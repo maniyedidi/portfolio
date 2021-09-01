@@ -1,0 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  font-family: fantasy;
+}
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 20px;
+  position: fixed;
+  width: calc(100vw - 40px);
+}
+.header .l-c,
+.r-c {
+  display: flex;
+  grid-gap: 20px;
+}
+.header .l-c span {
+  cursor: pointer;
+}
+.header .fa {
+  color: white;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.m-c {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+}
+
+#home {
+  background-color: #333333;
+}
+
+#about {
+  background-color: palevioletred;
+}
