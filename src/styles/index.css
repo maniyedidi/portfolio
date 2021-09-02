@@ -3,7 +3,7 @@ html {
 }
 body {
   margin: 0px;
-  font-family: fantasy;
+  font-family: "Roboto", sans-serif;
 }
 .header {
   height: 60px;
@@ -13,6 +13,7 @@ body {
   color: white;
   padding: 0px 20px;
   position: fixed;
+  background-color: #198754;
   width: calc(100vw - 40px);
 }
 .header .l-c,
@@ -32,20 +33,84 @@ body {
 }
 
 .m-c {
-  background-color: #333333;
+  height: 100vh;
+}
+.hm-c {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
   flex-direction: column;
-  height: 100vh;
+  height: inherit;
   color: white;
 }
 
 #home {
-  background-color: #333333;
+  background-color: #20c997;
+}
+#home .n {
+  font-size: 50px;
+}
+#home .r {
+  font-size: 20px;
 }
 
 #about {
   background-color: palevioletred;
+}
+
+.s-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.s-t {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33.6px;
+  margin-bottom: 20px;
+}
+.exp {
+  max-width: 400px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  width: 340px;
+  border: 1px solid green;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+}
+.card-icon {
+  background-color: #20c997;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 50%;
+  position: absolute;
+  width: 40px;
+  left: 150px;
+  top: -39px;
+  text-align: center;
+  height: 40px;
+}
+.card li {
+  margin-bottom: 10px;
+  color: #58677c;
+  font-family: Roboto, sans-serif;
+}
+.card ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.card ul li:before {
+  content: "✓";
+  color: #20c997;
+  padding-right: 10px;
+}
+
+.s-card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
