@@ -33,25 +33,36 @@ body {
 }
 
 .m-c {
-  height: 100vh;
+  height: 500px;
 }
 .hm-c {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: inherit;
+  height: 400px;
   color: white;
 }
 
 #home {
   background-color: #20c997;
+  height: 400px;
 }
 #home .n {
   font-size: 50px;
 }
 #home .r {
   font-size: 20px;
+}
+#skills{
+  padding-top: 40px;
+  background-color: #F7F8FA;
+  color:#58677c !important
+}
+
+#footer{
+  height: 150px;
+  background-color: #20c997;
 }
 
 #about {
@@ -70,13 +81,14 @@ body {
   margin-bottom: 20px;
 }
 .exp {
-  max-width: 400px;
+  max-width: 600px;
   text-align: center;
 }
 .card {
   background-color: white;
   width: 340px;
-  border: 1px solid green;
+  border: 1px solid #20c997;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   position: relative;
   margin: 20px;
   padding: 20px;
@@ -113,4 +125,25 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.f-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.section-intro{
+  max-width: 780px;
+  text-align: center;
+}
+.text-link{
+  text-decoration: none;
+  color: rgba(0,0,0,.5);
+}
+h3{
+  font-weight: 700;
+  font-size: 1.75rem;
 }
